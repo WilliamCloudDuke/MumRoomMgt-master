@@ -17,12 +17,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.gson.Gson;
+import com.google.gson.Gson;    
 import com.google.gson.GsonBuilder;
 
 import co.mum.roommgt.dao.transaction.TransactionDAO;
 import co.mum.roommgt.model.Transaction;
 
+
+//Transaction controller
 public class TransactionController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
